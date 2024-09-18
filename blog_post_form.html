@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><title>Blog Submission</title>
+    <body style="background-color:rgb(57, 201, 220);"></head>
+<body>
+
+<h1>Blog Submission</h1>
+
+<nav><a href="table_of_contents.html">Table of contents</a>
+  <a href="multimedia_blog_post.html">Multimedia</a>
+  <a href="blog_layout.html">Blog</a></nav><br><br>
+
+<form action="/action_page.php">
+  <label for="fname">Blog Title:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Author Name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+</form>
+
+
+<label for="w3review">Blog Content:</label><br>
+
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+Type blog content here.
+</textarea><br><br>
+
+<label for="Category">Choose a category:</label><br>
+
+<select name="Category" id="Category">
+  <option value="Fiction">Fiction</option>
+  <option value="Non-fiction">Non-fiction</option>
+  <option value="News">News</option>
+  <option value="Entertainment">Entertainment</option>
+</select><br><br>
+
+<button onclick="myFunction()">Submit</button>
+
+<script>
+function myFunction() {
+  alert("Form submitted!");
+}
+</script><br><br>
+<p>Contact Email</p>
+<footer><p><a href= "mailto: Amitwadalia001@gmail.com">Amitwadalia001@gmail.com</a></p></footer>
+</body>
+</html>
